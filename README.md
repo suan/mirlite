@@ -28,4 +28,4 @@ Thanks to Juha Luotio and his [libmirror](http://sourceforge.net/projects/libmir
 ## help ##
 - Source project page:                    http://github.com/suan/mirlite
 - Report a bug/Request a feature:         http://github.com/suan/mirlite/issues
-- [Give feedback/Contact me (Suan-Aik Yeo)](yeosuanaik@gmail.com)
+- [Give feedback/Contact me (Suan-Aik Yeo)](mailto:yeosuanaik@gmail.com)

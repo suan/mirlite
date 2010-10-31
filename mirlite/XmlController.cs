@@ -39,15 +39,14 @@ namespace mirlite
             dsThingPrograms.programs.ReadXml(Globals.programsXmlPath);
         }
 
+        // be careful - have to read nodes in the order they are written!
         private void loadPreferences(XmlFile prefsXml)
         {
             XmlTextReader textReader = new XmlTextReader(prefsXml.fileName);
             textReader.ReadToFollowing("minimizeToSystemTray");
             minimizePref.Checked = textReader.ReadElementContentAsBoolean();
             textReader.Close();
-            //debugMessage(textReader.ReadElementContentAsString());
         }
-
         private void loadState(XmlFile stateXml)
         {
             XmlTextReader textReader = new XmlTextReader(stateXml.fileName);
@@ -60,7 +59,9 @@ namespace mirlite
 
         private void writeState(XmlFile stateXml)
         {
-            XmlWriter textWriter = XmlWriter.Create(stateXml.fileName);
+            XmlWriterSettings settings = new XmlWriterSettings();
+            settings.Indent = true;
+            XmlWriter textWriter = XmlWriter.Create(stateXml.fileName, settings);
 
             textWriter.WriteStartDocument();
 
@@ -79,7 +80,9 @@ namespace mirlite
 
         private void writePreferences(XmlFile prefsXml)
         {
-            XmlWriter textWriter = XmlWriter.Create(prefsXml.fileName);
+            XmlWriterSettings settings = new XmlWriterSettings();
+            settings.Indent = true;
+            XmlWriter textWriter = XmlWriter.Create(prefsXml.fileName, settings);
 
             textWriter.WriteStartDocument();
 

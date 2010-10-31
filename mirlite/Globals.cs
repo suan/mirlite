@@ -7,7 +7,7 @@ namespace mirlite
 {
     public class Globals
     {
-        static String xmlFolder = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + @"\mirlite";
+        public static String xmlFolder = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + @"\mirlite";
         public static String thingsXmlPath = xmlFolder + @"\Things.xml";
         public static String programsXmlPath = xmlFolder + @"\Programs.xml";
 

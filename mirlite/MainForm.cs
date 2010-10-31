@@ -29,6 +29,19 @@ namespace mirlite
         {
             //test();
             setupTrayMenu();
+            if (!Directory.Exists(Globals.xmlFolder))
+            {
+                try
+                {
+                    Directory.CreateDirectory(Globals.xmlFolder);
+                }
+                catch (Exception exception)
+                {
+                    MessageBox.Show(this, "Something went wrong while creating application directory at "+Globals.xmlFolder+"! mir:lite will now exit...",
+                        Globals.errorTitle, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    cleanExit();
+                }
+            }
 
             if (xmlsExist())
             {

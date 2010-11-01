@@ -30,10 +30,10 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
             this.cbThingNames = new System.Windows.Forms.ComboBox();
             this.thingsBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.dsThingPrograms = new mirlite.dsThingPrograms();
@@ -81,11 +81,11 @@
             this.minimizePref = new System.Windows.Forms.MenuItem();
             this.menuItem4 = new System.Windows.Forms.MenuItem();
             this.menuItem3 = new System.Windows.Forms.MenuItem();
+            this.menuItem5 = new System.Windows.Forms.MenuItem();
             this.toggleChoreoTimer = new System.Windows.Forms.Timer(this.components);
             this.tlpPlacedThings = new System.Windows.Forms.TableLayoutPanel();
             this.lblPlacedThingsTitle = new System.Windows.Forms.Label();
             this.lblReconnectRequired = new System.Windows.Forms.Label();
-            this.menuItem5 = new System.Windows.Forms.MenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.thingsBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dsThingPrograms)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.thingsOnPlaceBindingSource)).BeginInit();
@@ -299,13 +299,13 @@
             // 
             this.dgvOnRemoveEnabled.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.dgvOnRemoveEnabled.DataPropertyName = "enabled";
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle1.NullValue = false;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.Control;
-            this.dgvOnRemoveEnabled.DefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle5.NullValue = false;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.Control;
+            this.dgvOnRemoveEnabled.DefaultCellStyle = dataGridViewCellStyle5;
             this.dgvOnRemoveEnabled.HeaderText = "Enabled?";
             this.dgvOnRemoveEnabled.MinimumWidth = 60;
             this.dgvOnRemoveEnabled.Name = "dgvOnRemoveEnabled";
@@ -315,13 +315,13 @@
             // dgvOnRemoveDelete
             // 
             this.dgvOnRemoveDelete.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle2.NullValue = ((object)(resources.GetObject("dataGridViewCellStyle2.NullValue")));
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.Control;
-            this.dgvOnRemoveDelete.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle6.NullValue = ((object)(resources.GetObject("dataGridViewCellStyle6.NullValue")));
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.Control;
+            this.dgvOnRemoveDelete.DefaultCellStyle = dataGridViewCellStyle6;
             this.dgvOnRemoveDelete.FillWeight = 50.36496F;
             this.dgvOnRemoveDelete.HeaderText = "";
             this.dgvOnRemoveDelete.Image = ((System.Drawing.Image)(resources.GetObject("dgvOnRemoveDelete.Image")));
@@ -485,13 +485,13 @@
             // 
             this.dgvOnPlaceEnabled.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.dgvOnPlaceEnabled.DataPropertyName = "enabled";
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle3.NullValue = false;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.Control;
-            this.dgvOnPlaceEnabled.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle7.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle7.ForeColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle7.NullValue = false;
+            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.Control;
+            this.dgvOnPlaceEnabled.DefaultCellStyle = dataGridViewCellStyle7;
             this.dgvOnPlaceEnabled.FillWeight = 81.21828F;
             this.dgvOnPlaceEnabled.HeaderText = "Enabled?";
             this.dgvOnPlaceEnabled.MinimumWidth = 60;
@@ -502,13 +502,13 @@
             // dgvOnPlaceDelete
             // 
             this.dgvOnPlaceDelete.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle4.NullValue = ((object)(resources.GetObject("dataGridViewCellStyle4.NullValue")));
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.Control;
-            this.dgvOnPlaceDelete.DefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle8.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle8.NullValue = ((object)(resources.GetObject("dataGridViewCellStyle8.NullValue")));
+            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.Control;
+            this.dgvOnPlaceDelete.DefaultCellStyle = dataGridViewCellStyle8;
             this.dgvOnPlaceDelete.FillWeight = 53.51811F;
             this.dgvOnPlaceDelete.HeaderText = "";
             this.dgvOnPlaceDelete.Image = ((System.Drawing.Image)(resources.GetObject("dgvOnPlaceDelete.Image")));
@@ -640,6 +640,12 @@
             this.menuItem3.Text = "Report a problem...";
             this.menuItem3.Click += new System.EventHandler(this.menuItem3_Click);
             // 
+            // menuItem5
+            // 
+            this.menuItem5.Index = 1;
+            this.menuItem5.Text = "Give feedback/Contact author...";
+            this.menuItem5.Click += new System.EventHandler(this.menuItem5_Click);
+            // 
             // toggleChoreoTimer
             // 
             this.toggleChoreoTimer.Interval = 1500;
@@ -678,12 +684,6 @@
             this.lblReconnectRequired.Size = new System.Drawing.Size(91, 12);
             this.lblReconnectRequired.TabIndex = 39;
             this.lblReconnectRequired.Text = "* Reconnect required";
-            // 
-            // menuItem5
-            // 
-            this.menuItem5.Index = 1;
-            this.menuItem5.Text = "Give feedback/Contact author...";
-            this.menuItem5.Click += new System.EventHandler(this.menuItem5_Click);
             // 
             // MainForm
             // 

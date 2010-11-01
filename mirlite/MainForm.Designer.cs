@@ -80,10 +80,12 @@
             this.menuItem2 = new System.Windows.Forms.MenuItem();
             this.minimizePref = new System.Windows.Forms.MenuItem();
             this.menuItem4 = new System.Windows.Forms.MenuItem();
+            this.menuItem3 = new System.Windows.Forms.MenuItem();
             this.toggleChoreoTimer = new System.Windows.Forms.Timer(this.components);
             this.tlpPlacedThings = new System.Windows.Forms.TableLayoutPanel();
             this.lblPlacedThingsTitle = new System.Windows.Forms.Label();
             this.lblReconnectRequired = new System.Windows.Forms.Label();
+            this.menuItem5 = new System.Windows.Forms.MenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.thingsBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dsThingPrograms)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.thingsOnPlaceBindingSource)).BeginInit();
@@ -627,7 +629,16 @@
             // menuItem4
             // 
             this.menuItem4.Index = 2;
+            this.menuItem4.MenuItems.AddRange(new System.Windows.Forms.MenuItem[] {
+            this.menuItem3,
+            this.menuItem5});
             this.menuItem4.Text = "Help";
+            // 
+            // menuItem3
+            // 
+            this.menuItem3.Index = 0;
+            this.menuItem3.Text = "Report a problem...";
+            this.menuItem3.Click += new System.EventHandler(this.menuItem3_Click);
             // 
             // toggleChoreoTimer
             // 
@@ -667,6 +678,12 @@
             this.lblReconnectRequired.Size = new System.Drawing.Size(91, 12);
             this.lblReconnectRequired.TabIndex = 39;
             this.lblReconnectRequired.Text = "* Reconnect required";
+            // 
+            // menuItem5
+            // 
+            this.menuItem5.Index = 1;
+            this.menuItem5.Text = "Give feedback/Contact author...";
+            this.menuItem5.Click += new System.EventHandler(this.menuItem5_Click);
             // 
             // MainForm
             // 
@@ -762,6 +779,8 @@
         private System.Windows.Forms.PictureBox imageDeleteObject;
         private System.Windows.Forms.Label lblPlacedThingsTitle;
         private System.Windows.Forms.Label lblReconnectRequired;
+        private System.Windows.Forms.MenuItem menuItem3;
+        private System.Windows.Forms.MenuItem menuItem5;
     }
 }
 

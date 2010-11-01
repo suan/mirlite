@@ -371,5 +371,15 @@ namespace mirlite
             notifyIconMenu.Items.Add(trayExit);
             notifyIcon.ContextMenuStrip = notifyIconMenu;
         }
+
+        private void menuItem3_Click(object sender, EventArgs e)
+        {
+            Process.Start("http://github.com/suan/mirlite/issues");
+        }
+
+        private void menuItem5_Click(object sender, EventArgs e)
+        {
+            Process.Start("mailto:yeosuanaik@gmail.com");
+        }
     }
 }

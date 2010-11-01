@@ -130,6 +130,13 @@ namespace mirlite.Properties {
             }
         }
         
+        internal static System.Drawing.Icon mirlite_main {
+            get {
+                object obj = ResourceManager.GetObject("mirlite_main", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
         internal static System.Drawing.Icon mirlite_muted_16 {
             get {
                 object obj = ResourceManager.GetObject("mirlite_muted_16", resourceCulture);

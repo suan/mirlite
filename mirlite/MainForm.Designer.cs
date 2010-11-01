@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             this.cbThingNames = new System.Windows.Forms.ComboBox();
@@ -195,7 +195,7 @@
             // 
             // btnAddOnRemove
             // 
-            this.btnAddOnRemove.Image = global::mirlite.Properties.Resources.plus_12x12;
+            this.btnAddOnRemove.Image = ((System.Drawing.Image)(resources.GetObject("btnAddOnRemove.Image")));
             this.btnAddOnRemove.Location = new System.Drawing.Point(592, 3);
             this.btnAddOnRemove.MaximumSize = new System.Drawing.Size(23, 23);
             this.btnAddOnRemove.MinimumSize = new System.Drawing.Size(23, 23);
@@ -208,7 +208,7 @@
             // 
             // btnBrowseOnRemove
             // 
-            this.btnBrowseOnRemove.Image = global::mirlite.Properties.Resources.folder_stroke_12x12;
+            this.btnBrowseOnRemove.Image = ((System.Drawing.Image)(resources.GetObject("btnBrowseOnRemove.Image")));
             this.btnBrowseOnRemove.Location = new System.Drawing.Point(563, 3);
             this.btnBrowseOnRemove.MaximumSize = new System.Drawing.Size(23, 23);
             this.btnBrowseOnRemove.MinimumSize = new System.Drawing.Size(23, 23);
@@ -322,7 +322,7 @@
             this.dgvOnRemoveDelete.DefaultCellStyle = dataGridViewCellStyle2;
             this.dgvOnRemoveDelete.FillWeight = 50.36496F;
             this.dgvOnRemoveDelete.HeaderText = "";
-            this.dgvOnRemoveDelete.Image = global::mirlite.Properties.Resources.x_12x12;
+            this.dgvOnRemoveDelete.Image = ((System.Drawing.Image)(resources.GetObject("dgvOnRemoveDelete.Image")));
             this.dgvOnRemoveDelete.MinimumWidth = 20;
             this.dgvOnRemoveDelete.Name = "dgvOnRemoveDelete";
             this.dgvOnRemoveDelete.ReadOnly = true;
@@ -365,7 +365,7 @@
             // 
             // btnBrowseOnPlace
             // 
-            this.btnBrowseOnPlace.Image = global::mirlite.Properties.Resources.folder_stroke_12x12;
+            this.btnBrowseOnPlace.Image = ((System.Drawing.Image)(resources.GetObject("btnBrowseOnPlace.Image")));
             this.btnBrowseOnPlace.Location = new System.Drawing.Point(563, 3);
             this.btnBrowseOnPlace.MaximumSize = new System.Drawing.Size(23, 23);
             this.btnBrowseOnPlace.MinimumSize = new System.Drawing.Size(23, 23);
@@ -392,7 +392,7 @@
             // 
             // btnAddOnPlace
             // 
-            this.btnAddOnPlace.Image = global::mirlite.Properties.Resources.plus_12x12;
+            this.btnAddOnPlace.Image = ((System.Drawing.Image)(resources.GetObject("btnAddOnPlace.Image")));
             this.btnAddOnPlace.Location = new System.Drawing.Point(592, 3);
             this.btnAddOnPlace.MaximumSize = new System.Drawing.Size(23, 23);
             this.btnAddOnPlace.MinimumSize = new System.Drawing.Size(23, 23);
@@ -509,7 +509,7 @@
             this.dgvOnPlaceDelete.DefaultCellStyle = dataGridViewCellStyle4;
             this.dgvOnPlaceDelete.FillWeight = 53.51811F;
             this.dgvOnPlaceDelete.HeaderText = "";
-            this.dgvOnPlaceDelete.Image = global::mirlite.Properties.Resources.x_12x12;
+            this.dgvOnPlaceDelete.Image = ((System.Drawing.Image)(resources.GetObject("dgvOnPlaceDelete.Image")));
             this.dgvOnPlaceDelete.MinimumWidth = 20;
             this.dgvOnPlaceDelete.Name = "dgvOnPlaceDelete";
             this.dgvOnPlaceDelete.ReadOnly = true;
@@ -554,7 +554,7 @@
             // 
             // imageDeleteObject
             // 
-            this.imageDeleteObject.Image = global::mirlite.Properties.Resources.x_12x12;
+            this.imageDeleteObject.Image = ((System.Drawing.Image)(resources.GetObject("imageDeleteObject.Image")));
             this.imageDeleteObject.Location = new System.Drawing.Point(250, 13);
             this.imageDeleteObject.MaximumSize = new System.Drawing.Size(20, 20);
             this.imageDeleteObject.MinimumSize = new System.Drawing.Size(20, 20);
@@ -583,7 +583,7 @@
             // 
             // statusImage
             // 
-            this.statusImage.Image = global::mirlite.Properties.Resources.mirlite_image_glow;
+            this.statusImage.Image = ((System.Drawing.Image)(resources.GetObject("statusImage.Image")));
             this.statusImage.Location = new System.Drawing.Point(69, 260);
             this.statusImage.Name = "statusImage";
             this.statusImage.Size = new System.Drawing.Size(143, 143);
@@ -681,6 +681,7 @@
             this.Controls.Add(this.gbPrograms);
             this.Controls.Add(this.btnToggleChoreo);
             this.Controls.Add(this.cbThingNames);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Menu = this.mainMenu1;
             this.Name = "MainForm";
             this.Text = "mir:lite";

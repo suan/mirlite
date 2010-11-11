@@ -13,10 +13,9 @@ mir:lite is a Mirware replacement for the Violet Mirror done in .NET Windows For
 - Due to limited understanding of the reverse-engineered mir:ror protocol, turning lights and sound off often requires a physical reconnect of the mir:ror (mir:lite will prompt you when this is required)
 
 ## usage/platform compatibility ##
-I'm currently working on an installer, but in the meantime, try running [the executable](http://github.com/downloads/suan/mirlite/mirlite_1.0.0.zip) (requires .NET 3.5, and creates an %APPDATA%\mirlite folder where app data is stored). Otherwise, you can build the executable in Visual Studio. Right now mir:lite only works on Windows. However, I've been using .NET features conservatively in the hopes of porting it to Linux and the Mac via Mono (refer to below section for more info)
+The easiest way to use mir:lite is by downloading the msi installer from the Downloads section. Right now mir:lite only works on Windows. However, I've been using .NET features conservatively in the hopes of porting it to Linux and the Mac via Mono (refer to below section for more info)
 
 ## TODO/contributions ##
-- installer
 - homepage
 - Mono port to Linux/Mac*
 

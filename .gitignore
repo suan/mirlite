@@ -27,3 +27,7 @@ obj/
 [Rr]elease*/
 _ReSharper*/
 [Tt]est[Rr]esult*
+
+# Advanced Installer files
+setup-cache/
+mirlite_setup.msi

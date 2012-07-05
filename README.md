@@ -28,3 +28,10 @@ Thanks to Juha Luotio and his [libmirror](http://sourceforge.net/projects/libmir
 - Source project page:                    http://github.com/suan/mirlite
 - Report a bug/Request a feature:         http://github.com/suan/mirlite/issues
 - [Give feedback/Contact me (Suan-Aik Yeo)](mailto:yeosuanaik@gmail.com)
+
+## license ##
+mir:lite is distributed under the [BSD License][BSD License].
+
+
+
+[BSD License]: http://www.opensource.org/licenses/BSD-3-Clause
